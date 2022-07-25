@@ -1,0 +1,5 @@
+python detect_multiprocess2.py --source ./test/Test1.mp4  --weights ./runs/train/Model7/weights/last.pt
+python detect_multiprocess2.py --source ./test/Test1.mp4  ./test/Test2.mp4 --weights ./runs/train/Model7/weights/last.pt #for running 2 files [can run multiple test videos]
+
+#the results of given video files are saved in result folder
+#the inference results are saved in ./run/detect/exp
